@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "prepare": "husky install",
     "start": "webpack serve --open --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js"
@@ -14,9 +14,12 @@
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
+    "@types/react": "^17.0.32",
+    "@types/react-dom": "^17.0.10",
     "babel-loader": "^8.2.3",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.0",
@@ -29,5 +32,9 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

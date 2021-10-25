@@ -28,13 +28,18 @@ This is a boilerplate with config for webpack, typescript, babel, .. to start a 
 - EditorConfig
 - Prettier
 - Commitlint
+- webpack
+- babel
+- ts
 
 ## TODO
 
-- [x] Webpack
-- [ ] Babel
-- [ ] TS
+- [x] react
+- [x] react dom
+- [ ] React Testing Librar
 - [ ] Jest
+- [ ] cypress
+- [] redux
 
 ## LICENSE
 
